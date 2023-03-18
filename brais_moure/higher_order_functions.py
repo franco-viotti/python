@@ -1,3 +1,5 @@
+from functools import reduce
+
 ### Higher Order Functions ###
 # Functions between functions
 # Lets create a simple function
@@ -42,4 +44,32 @@ def add_ten():
 
 add_closure = add_ten()
 print(add_closure(15))
-add_ten()
+
+### Built-in Higher Order Functions ###
+
+numbers = [2, 5, 10, 21, 30]
+
+# ? Map: the map() function always needs an interable set
+
+def ex_function(number):
+    return number*2
+
+print(list(map(ex_function, numbers)))
+## ! Prints [4, 10, 20, 42]
+
+## You can also pass a lambda function as a parameter
+print(list(map(lambda number: number*2, numbers)))
+
+# ? Filter
+
+def for_filter_greater_than_ten(number):
+        return number > 10
+
+print(list(filter(for_filter_greater_than_ten, numbers)))
+
+## You can also pass a lambda function as a parameter
+print(list(filter(lambda number: number > 10, numbers)))
+
+# ? Reduce
+
+print(reduce(lambda x, y: x + y, numbers))
