@@ -28,7 +28,7 @@ print(list["Something"]) # TypeError: list indices must be integers or slices, n
 from math import PI # ImportError: cannot import name 'PI' from 'math' (unknown location)
 
 # ValueError
-my_int = int("10 años") # ValueError: invalid literal for int() with base 10: '10 años'
+my_int = int("10 years old") # ValueError: invalid literal for int() with base 10: '10 años'
 
 # ZeroDivisionError
 print(1/0) # ZeroDivisionError: division by zero
