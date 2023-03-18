@@ -7,10 +7,10 @@ from functools import reduce
 def sum_one(value):
     return value + 1
 
-'''
-def sum_two_values_and_add_one(first_value, second_value):
-    return first_value + second_value + 1
-'''
+
+# def sum_two_values_and_add_one(first_value, second_value):
+#     return first_value + second_value + 1
+
 
 # Now let's change the below function and include the sum_one function
 def sum_two_value_and_add_one(first_value, second_value):
