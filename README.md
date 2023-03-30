@@ -27,4 +27,4 @@ Contributions to this repository are welcome! If you'd like to contribute, pleas
 Please make sure to include a detailed description of your changes when submitting a pull request.
 ## License
 This project is licensed under the MIT License. Please see the LICENSE file for more information.
-You can copy and paste this into your README.md fi
+
