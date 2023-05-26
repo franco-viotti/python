@@ -1,0 +1,14 @@
+Existe el paradigma de la programacion funcional. Esta dentro del paradigma de la programacion declarativa.
+Es decir, basados en funciones matematicas. No se manejan datos mutables, o de estado. 
+Las ventajas que presenta la programacion funcional son:
+	Las pruebas de unidades son mas confiables. 
+	Tenemos mayor facilidad para la ejecucion concurrente.
+	Ausencia de efectos colaterales. 
+	El debugging es menos problematico. 
+Se utiliza mas en el area de la investigacion o manejo de datos. 
+Algunos de los lenguajes funcionales son: Objective CAlM, Haskell. 
+Para hacer iteraciones, se utiliza la recursividad. 
+
+Una de sus caracteristicas principales es el orden superior. Es decir, existen funciones de orden superior. Estas 
+son funciones que pueden tomar otras funciones como argumentos y devolverlos tambien como resutlados. 
+La programacion funcional tiene un fuerte vinculo con el calculo lambda. 
