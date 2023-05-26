@@ -1,0 +1,3 @@
+[submodule "Python-BraisMoure"]
+	path = Python-BraisMoure
+	url = https://github.com/mouredev/hello-python
